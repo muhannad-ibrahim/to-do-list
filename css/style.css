@@ -1,9 +1,16 @@
 /* ------------ youtube.com/CodeExplained ------------ */
 body{
-    padding: 0;
+    /* padding: 0;
     margin: 0;
-    background-color: rgba(0,0,0,0.1);
+    background-color: rgba(0,0,0,0.1);*/
     font-family: 'Titillium Web', sans-serif;
+    background: rgb(1, 0, 7);
+    background: linear-gradient( 340deg, rgba(1, 0, 7, 1) 60%, rgba(166, 6, 7, 0.9585084033613446) 100% );
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+
 }
 
 /* ------------ container ------------ */
@@ -16,7 +23,7 @@ body{
 /* ------------ header ------------ */
 .header{
     width: 380px;
-    height:200px;
+    height:300px;
     background-image: url('../img/iti.jpg');
     background-size: 100% 100%;
     background-repeat: no-repeat;
